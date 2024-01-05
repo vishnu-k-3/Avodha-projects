@@ -1,0 +1,17 @@
+.cells{
+    width: 75px;
+    height: 75px;
+    border: 3px solid;
+    font-size: 55px;
+    font-family: "permanent Marker", cursive;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+#cell{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 55px;
+    margin: auto;
+    
+}

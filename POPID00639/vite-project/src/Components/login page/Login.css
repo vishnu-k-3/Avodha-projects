@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    background: linear-gradient(blue,rgba(111, 28, 28, 0.388));
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 600px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    width: 100%;
+    align-items: center;
+}
+.heading{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 600;
+}
+.underline{
+    width: 61px;
+    height: 4px;
+    background: whitesmoke;
+    border-radius: 9px;
+    position: relative;
+    top: -8px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    gap: 15px;
+}
+.input{
+    display: flex;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+.texts{
+    margin: 0 30px;
+}
+.input input{
+    height: 20px;
+    width: 250px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 18px;
+}
+.forgot{
+    margin-top: 25px;
+    color: rgb(184, 175, 175);
+    font-size: 15px;
+}
+.forgot span{
+    color:whitesmoke;
+}
+.container2{
+    display: flex;
+    gap: 30px;
+    margin: 30px auto;
+}
+.btn{
+    background: black;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#log{
+    width: 55px;
+}
+.gray{
+    background-color: gray;
+}

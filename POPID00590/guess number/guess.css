@@ -1,0 +1,37 @@
+.div1{
+    height: 230px;
+    width: 500px;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin: auto;
+    text-align: center;
+    font-family: serif;
+    background-color: rgb(3, 47, 65);
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+*{
+    background-color: black;
+}
+.cont{
+    background-color: rgb(3, 47, 65);
+}
+#txt{
+    background-color: white;
+}
+#btn{
+    background-color: white;
+    
+}
+input[type="button"], input[type="text"]{
+    border: none;
+}
+input[type="text"]{
+    border-right: solid;
+    border-color: rgb(3, 47, 65);
+}
+
